@@ -1,0 +1,117 @@
+
+/* custom fonts */
+@font-face {
+    font-family: lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: lato-bold;
+    src: url(./fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: lato-italic;
+    src: url(./fonts/Lato-Italic.ttf);
+}
+/* ------------- */
+:root {
+    --primary-color: #a0c688;
+    --secondary-color: #b5dac7;
+    --tertiary-color: #bfe2d7;
+    --primary-border-color: #9dc0b0;
+    --secondary-border-color: #727d6a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: lato;
+}
+
+section {
+    height: 500px;
+    clear: both;
+}
+
+/* header start ----------*/
+.toolbar {
+    height: 55px;
+    background: var(--primary-color);
+    border-bottom: 5px groove var(--primary-border-color);
+}
+
+.toolbar h1 {
+    padding: 5px;
+    float: left;
+    color: #fff;
+}
+
+.logo {
+    color: var(--secondary-color);
+}
+
+/* nav start */
+nav {
+    float: right;
+}
+
+nav .navlinks li {
+    display: inline;
+    font-family: lato-bold;
+    padding: 17px;
+    line-height: 55px;
+    list-style: none;
+    height: 50px;
+    margin: 0 5px;
+    background: var(--secondary-color);
+    transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    -htm-transition: 300ms;
+    -webkit-transition: 300ms;
+}
+
+nav .navlinks li:hover {
+    background: var(--tertiary-color);
+    cursor: pointer;
+    transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    -htm-transition: 300ms;
+    -webkit-transition: 300ms;
+}
+/* nav end */
+/* header end ----------*/
+
+/* footer start */
+footer {
+    height: 100px;
+    background: var(--primary-color);
+    border-top: 5px groove var(--primary-border-color);
+}
+
+#footer-home {
+    float: left;
+    margin: 40px;
+    font-family: lato-bold;
+}
+#footer-home:hover {
+    cursor: pointer;
+}
+.footer-links {
+    float: right;
+}
+.footer-links .navlinks {
+    margin-right: 50px;
+}
+.footer-links li {
+    list-style: none;
+}
+.footer-links .navlinks li,
+.footer-links .socials li {
+    display: inline;
+}
+
+/* footer end */
