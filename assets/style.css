@@ -42,6 +42,9 @@ body {
     .likes {
         margin-bottom: 20px !important;
     }
+    .about-me {
+        height: fit-content !important;
+    }
 }
 
 /* media query for desktop */
@@ -134,7 +137,7 @@ a {
 section {
     height: fit-content;
     width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .section-title {
@@ -208,7 +211,6 @@ nav .navlinks li:hover {
     background-image: url(http://i86.servimg.com/u/f86/19/40/43/72/20811010.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0;
     height: 400px;
     width: 100%;
     position: relative;
@@ -227,6 +229,10 @@ nav .navlinks li:hover {
 /* main end */
 
 /* about me start */
+.about-me {
+    height: 550px;
+}
+
 .about-display {
     margin-top: 20px;
 }
