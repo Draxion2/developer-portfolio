@@ -198,17 +198,18 @@ nav .navlinks li:hover {
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #first-app,
 #first-app img {
-    width: 600px;
+    width: 840px;
 }
 
 #first-app .card-title {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 590px;
+    width: 830px;
 }
 
 .card {
